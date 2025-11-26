@@ -3,7 +3,7 @@ const http = require("node:http");
 function listener(req, res) {
   res.statusCode = 200;
   res.setHeader("Content-Type", "text/html");
-  res.end("<h1>Our Site</h1>");
+  res.end("<h1>Our BCIT Site</h1>");
 }
 const app = http.createServer(listener);
 
